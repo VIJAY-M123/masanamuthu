@@ -5,6 +5,7 @@ import NavBar1 from './NavBar1'
 import About from '../About'
 import Image from '../Image'
 import Group from '../Group'
+import Video from "../Videos";
 
 function NavbarIndex() {
   return (
@@ -17,6 +18,7 @@ function NavbarIndex() {
    <Route path="/about" element={<About/>}/>
    <Route path="/image" element={<Image/>}/>
    <Route path="/group" element={<Group/>}/>
+   <Route path="/video" element={<Video/>}/>
   </Routes>
   </>
     

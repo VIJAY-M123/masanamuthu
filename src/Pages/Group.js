@@ -8,6 +8,14 @@ import Gowtham from "../Image/Gowtham.jpg"
 import styled from "styled-components";
 import Senthil from "../Image/Senthil.jpg";
 import Srinivasan from "../Image/srinivasan.jpg";
+import Kodi from "../Image/Kodi.jpeg";
+import Bala from "../Image/Balasingh.jpg"
+import Vignesh from "../Image/vignesh.jpg"
+import Sivanesh from "../Image/Sivanesh.jpeg"
+import Bala2 from "../Image/Bala.jpg";
+import Saravanan from "../Image/Saravanan.jpeg";
+import Lingesh from "../Image/Lingesh.jpeg";
+import Muthuraja from "../Image/Muthuraja.jpeg";
 
 const Item = styled.div`
 display: flex;
@@ -31,10 +39,10 @@ const card = [
         phone:""
       },
       {
-        icon:"",
+        icon:Kodi,
         logo:logo,
         title:"Kodiyarasan M",
-        father:"",
+        father:"Manthiram",
         age:"",
         phone:""
       },
@@ -42,7 +50,7 @@ const card = [
         icon:Senthil,
         logo:logo,
         title:"Senthil P",
-        father:"",
+        father:"Ponpandi",
         age:"",
         phone:""
       },
@@ -63,28 +71,28 @@ const card = [
         phone:""
       },
       {
-        icon:"",
+        icon:Muthuraja,
         logo:logo,
         title:"Muthuraja P",
-        father:"",
-        age:"",
+        father:"Paul",
+        age:"31",
         phone:""
       },
       {
-        icon:"",
+        icon:Lingesh,
         logo:logo,
         title:"Lingeshwaran P",
-        father:"",
-        age:"",
+        father:"Paul",
+        age:"29",
         phone:""
       },
       
       {
-        icon:"",
+        icon:Saravanan,
         logo:logo,
         title:"Saravanan P",
-        father:"",
-        age:"",
+        father:"Paul",
+        age:"27",
         phone:""
       },
       {
@@ -108,7 +116,7 @@ const card = [
     icon:Vijayaraj,
     logo:logo,
     title:"Vinoth Kumar J",
-    father:"Muthuraman P",
+    father:"Jayaraman P",
     age:"21",
     phone:"790405589"
   },
@@ -147,12 +155,12 @@ const card = [
     phone:""
   },
   {
-    icon:"",
+    icon:Sivanesh,
     logo:logo,
     title:"Shivanesh M",
     father:"",
-    age:"",
-    phone:""
+    age:"20",
+    phone:"8508886010"
   },
   {
     icon:"",
@@ -219,7 +227,7 @@ const card = [
     phone:""
   },
   {
-    icon:"",
+    icon:Vignesh,
     logo:logo,
     title:"Vignesh D",
     father:"",
@@ -275,11 +283,11 @@ const card = [
     phone:""
   },
   {
-    icon:"",
+    icon:Bala2,
     logo:logo,
-    title:"Selvakumar S",
-    father:"",
-    age:"",
+    title:"Bala S",
+    father:"SELVAKUMAR S",
+    age:"20",
     phone:""
   },
   {
@@ -290,11 +298,19 @@ const card = [
     age:"",
     phone:""
   },
+  {
+    icon:Bala,
+    logo:logo,
+    title:"Balasingh C",
+    father:"Chandra Kumar T",
+    age:"23",
+    phone:"8870710205"
+  },
   ]
 
 function Group() {
   return (
-    <div className='pt-24 w-full bg-gray-100 p-8'>
+    <div className='pt-24 w-full bg-slate-300 p-8'>
     <Grid container spacing={2}>
         
         {card.map((item, index)=>(

@@ -45,6 +45,11 @@ function NavBar1() {
               pathname === '/image' ? 'text-[#FF0000]' : ''
             }`}>Image</Link>
 
+<Link to="/video" className={`py-7 px-3 inline-block hover:text-green-400 focus:text-[#FF0000]
+             ${
+              pathname === '/video' ? 'text-[#FF0000]' : ''
+            }`}>Video</Link>
+
           </li>
           {/* <NavbarLink/> */}
           <li>
@@ -72,6 +77,11 @@ function NavBar1() {
             <Link to="/image" className={`py-3 px-3 inline-block hover:text-green-400 focus:text-[#FF0000] ${
           pathname === '/image' ? 'text-[#FF0000]' : ''
         }`} onClick={()=>setOpen(false)}>Image</Link>
+
+<Link to="/video" className={`py-7 px-3 inline-block hover:text-green-400 focus:text-[#FF0000]
+             ${
+              pathname === '/video' ? 'text-[#FF0000]' : ''
+            }`} onClick={()=>setOpen(false)}>Video</Link>
 
           </li>
           {/* <NavbarLink/> */}
