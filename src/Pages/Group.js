@@ -311,7 +311,7 @@ const card = [
 function Group() {
   return (
     <div className='pt-24 w-full bg-slate-300 p-8'>
-    <Grid container spacing={2}>
+    <Grid container spacing={3}>
         
         {card.map((item, index)=>(
             <Grid item xs={12} lg={3}>

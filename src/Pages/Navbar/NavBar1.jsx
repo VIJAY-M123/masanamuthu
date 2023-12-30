@@ -78,19 +78,17 @@ function NavBar1() {
           pathname === '/image' ? 'text-[#FF0000]' : ''
         }`} onClick={()=>setOpen(false)}>Image</Link>
 
-<Link to="/video" className={`py-7 px-3 inline-block hover:text-green-400 focus:text-[#FF0000]
+            <Link to="/video" className={`py-3 px-3 inline-block hover:text-green-400 focus:text-[#FF0000]
              ${
               pathname === '/video' ? 'text-[#FF0000]' : ''
             }`} onClick={()=>setOpen(false)}>Video</Link>
 
-          </li>
-          {/* <NavbarLink/> */}
-          <li className='flex flex-col'>
             <Link to="/about" className={`py-3 px-3 inline-block hover:text-green-400 active:text-red-400 focus:text-[#FF0000] ${
           pathname === '/about' ? 'text-[#FF0000]' : ''
         }`} onClick={()=>setOpen(false)}>About</Link>
 
           </li>
+          {/* <NavbarLink/> */}
           <div className='py-5 '>
         <Button variant="outlined">LOGIN</Button>
         </div>
